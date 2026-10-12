@@ -14,7 +14,7 @@ public class PurchaseCalculator {
     }// isValidPurchase
 
     public static double calculateDiscount(double subtotal){
-        if(subtotal > 1000){
+        if(subtotal >= 1000){
             return subtotal * 0.1;
         }
         return 0;
